@@ -1,13 +1,88 @@
-body{
-	background-color:#f1f1f1;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #2c2c2c;
+  margin: 0;
+  padding: 0;
 }
-h1{
-	font-size:90px;
+
+/* Header */
+#header {
+  background: no-repeat;
+  background-size: cover;
 }
-h2{
-	font-size:23px;
+
+h1 {
+  margin: 0;
+	font-size: 5.825em;
+  font-weight: normal;
+  padding-top: 1.6em;
 }
-.box{
-	width:800px;
-	margin:0 auto;
+
+h2 {
+  margin: 0;
+	font-size: 1.438em;
+  font-weight: normal;
 }
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#lr-widget {
+  padding-bottom: 6em;
+}
+
+#header p {
+  margin-top: 6em;
+  font-size: 1.3em;
+}
+
+.attribution {
+  text-align: right;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+  font-size: .7em;
+  padding: .2em;
+}
+
+/* Info */
+#info {
+  padding: 2em 6em;
+  color: white;
+  font-size: 100%;
+  font-size: 1.2em;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding: 2%;
+  min-width: 15em;
+}
+
+/* For resizable text */
+body.extraWide {
+  font-size: 200%;
+}
+
+body.wide {
+  font-size: 150%;
+}
+
+body.standard {
+  font-size: 100%;
+}
+
+body.narrow {
+  font-size: 85%;
+}
+
+body.extraNarrow {
+  font-size: 70%;
+}
+
